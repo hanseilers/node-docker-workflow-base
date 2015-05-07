@@ -5,7 +5,7 @@ machine:
 dependencies:
   override:
     - sudo pip install -U docker-compose
-#wow
+#wo
 test:
   override:
     - docker-compose run -d --no-deps web
